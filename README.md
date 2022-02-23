@@ -22,7 +22,7 @@ Forestation Initiatives have failed due to inefficiencies, claims of corruption 
 Update: this section
 - ## Goals
 
-  - The Goal is for TreeChain to provide accountability to donors.
+  - The Goal is for TreeChain to provide accountability to donors. Update
 
   - Provide real-time tracking and incentives for forest protection.
 
@@ -128,7 +128,7 @@ TreeChain is a startup company offering a blockchain-based solution that allows 
 
 | Tasks                             | Assignee         |
 | :----------------------------     |:---------------- |
-| Problem & solution documentation  |  Nathan          |
+| Problem & solution documentation  |  Nathan           |
 | Diagram representation:           |  Amandeepkaur    |
 | Smart Contract Development        |  Kinjal & Ken    |
 ```
@@ -145,6 +145,6 @@ TreeChain is a startup company offering a blockchain-based solution that allows 
 
 # Smart Contract
 
-- [TreeChain.sol]() file under the src folder in the repo.
+Nathan writing something cool here
 
-<!-- Basic git command with the team -->
+- [TreeChain.sol]() file under the src folder in the repo.
