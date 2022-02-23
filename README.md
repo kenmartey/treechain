@@ -1,0 +1,162 @@
+# TreeChain Project
+
+This project is to provide a way for government and private donors to track their funds with the use of the smart contract.  This also provide incentives to tree custodians through the issuance of TreeChain Tokens (TCT) 
+
+# Getting Started
+
+## This documentation includes the following
+    * Requirements Document
+
+    * Architecture  
+
+    * Project Plan  
+
+    * Smart Contract  
+
+## Requirements Document  
+
+* ## Problem statement: 
+
+Forestation Initiatives have failed due to inefficiencies, claims of corruption or the inability to demonstrate how funds were allocated. Previous attempts have not tracked results or audited spending. 
+
+* ## Goals 
+
+    - The Goal is for TreeChain to provide accountability to donors. 
+
+    - Provide real-time tracking and incentives for forest protection.  
+
+    - Utilizing smart contracts, IoT devices, and the blockchain to provide verifiable accountability. 
+
+ 
+
+* ## Stakeholders  
+
+    - ### *Private donors (individuals)* 
+
+        A private donor is generally an individual who is willing to donate to our cause.  Private donors need reassurance that their donations are being used correctly and blockchain allows donors exactly how and where their donations are being used.  
+
+    - ### *Tree Custodians* 
+
+        Tree custodians are local people who have an incentive to plant and are rewarded via tokens to take care of the tree and forests. A tree custodian can be allocated and take care of multiple trees.  
+
+    - ### *Suppliers* 
+
+        There are two main suppliers. The supplier of the tree sapling and IoT device. The blockchain monitors these inputs so each shipment can be timed, coordinated, and logged. 
+
+ 
+
+    - ### *Delivery Agents* 
+
+        There are multiple delivery agents like Ghana post or international providers such as FedEx, the blockchain scans the IoT device as it leaves the supplier. Upon delivery, the tree custodian registers receipt, with their mobile device.  
+
+    - ### *Restrictions/rules*  
+
+    - ### *Data*  
+
+    - ### *Exceptions*  
+
+    - ### *User stories* 
+
+        Replace with a graphical representation of the user stories 
+
+
+
+# Architecture
+
+* ## Project description 
+
+This project is to provide a way for government and private donors to track their funds with the use of the smart contract.  This also provide incentives to tree custodians through the issuance of TreeChain Tokens (TCT) 
+
+* ## Top level description 
+
+TreeChain is a startup company offering a blockchain-based solution that allows donors to invest in the re-forestation of designated geographic areas where the local population is incentivized to plant, maintain and participate in forest restoration. 
+
+* ## Data / Fields
+
+```
+[ treeId, treeType, Latitude and Longitude, Timestamp, Location, treeState, TreeCustodiansWalletAddress ]
+```
+
+
+* ## Functions - inputs/outputs  
+
+    createTreeData()
+
+    updateTreeState()
+
+    modifiers()
+
+    events()
+
+* ## Diagram (flow, system)
+Replace with section with Flow diagram  
+
+* ## Tech stack 
+
+    Blockchain 
+
+    Smart contract (Solidity) 
+
+
+# Project Plan
+
+* ## Breakdown of tasks 
+
+    - ### Documentation: 
+
+        Problem and solution statement documentation. 
+
+    - ### Graphical representation: 
+
+        User stories diagram 
+
+        Solution architecture diagram. 
+
+    - ### Smart contract development: 
+
+        Tokenization contract 
+
+        Data tracking contract  
+
+* ## Time estimate per task 
+```
+| Tasks                         | Timeline          | 
+| :---------------------------- | :---------------- |
+| Documentation                 |  4 hours          |
+| Graphical representation      |  1 day            |
+| Smart contract development    |  5 days           |
+```
+
+
+
+
+* ## Tasks assigned to Team members
+```
+
+| Tasks                             | Assignee         | 
+| :----------------------------     |:---------------- |
+| Problem & solution documentation  |  Nthan           |
+| Diagram representation:           |  Amandeepkaur    |
+| Smart Contract Development        |  Kinjal & Ken    |
+```
+
+
+* ## Dependencies: 
+
+    [Open zeppeline](https://github.com/OpenZeppelin/openzeppelin-contracts) library
+
+* ## Length of time to complete  
+
+    The timeline for the entire project is 6days 15hrs 
+
+* ## Gantt chart – simple (Amandeep) 
+
+# Smart Contract 
+* [TreeChain.sol]() file under the src folder in the repo.
+
+
+
+
+
+
+
