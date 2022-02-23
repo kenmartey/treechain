@@ -19,10 +19,10 @@ This project is to provide a way for government and private donors to track thei
 - ## Problem statement:
 
 Forestation Initiatives have failed due to inefficiencies, claims of corruption or the inability to demonstrate how funds were allocated. Previous attempts have not tracked results or audited spending.
-
+Update: this section
 - ## Goals
 
-  - The Goal is for TreeChain to provide accountability to donors.
+  - The Goal is for TreeChain to provide accountability to donors. Update
 
   - Provide real-time tracking and incentives for forest protection.
 
@@ -128,7 +128,7 @@ TreeChain is a startup company offering a blockchain-based solution that allows 
 
 | Tasks                             | Assignee         |
 | :----------------------------     |:---------------- |
-| Problem & solution documentation  |  Nathan          |
+| Problem & solution documentation  |  Nathan           |
 | Diagram representation:           |  Amandeepkaur    |
 | Smart Contract Development        |  Kinjal & Ken    |
 ```
@@ -145,7 +145,11 @@ TreeChain is a startup company offering a blockchain-based solution that allows 
 
 # Smart Contract
 
-- [TreeChain.sol]() file under the src folder in the repo.
+Nathan writing something cool here
 
+<<<<<<< HEAD
 <!-- Basic git command with the team -->
 <!--This is Amandeep section -->
+=======
+- [TreeChain.sol]() file under the src folder in the repo.
+>>>>>>> 023317182e050bdaaa923b530de43f729819f08b
