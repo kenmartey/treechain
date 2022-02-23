@@ -1,162 +1,148 @@
 # TreeChain Project
 
-This project is to provide a way for government and private donors to track their funds with the use of the smart contract.  This also provide incentives to tree custodians through the issuance of TreeChain Tokens (TCT) 
+This project is to provide a way for government and private donors to track their funds with the use of the smart contract. This also provide incentives to tree custodians through the issuance of TreeChain Tokens (TCT)
 
 # Getting Started
 
 ## This documentation includes the following
+
     * Requirements Document
 
-    * Architecture  
+    * Architecture
 
-    * Project Plan  
+    * Project Plan
 
-    * Smart Contract  
+    * Smart Contract
 
-## Requirements Document  
+## Requirements Document
 
-* ## Problem statement: 
+- ## Problem statement:
 
-Forestation Initiatives have failed due to inefficiencies, claims of corruption or the inability to demonstrate how funds were allocated. Previous attempts have not tracked results or audited spending. 
+Forestation Initiatives have failed due to inefficiencies, claims of corruption or the inability to demonstrate how funds were allocated. Previous attempts have not tracked results or audited spending.
 
-* ## Goals 
+- ## Goals
 
-    - The Goal is for TreeChain to provide accountability to donors. 
+  - The Goal is for TreeChain to provide accountability to donors.
 
-    - Provide real-time tracking and incentives for forest protection.  
+  - Provide real-time tracking and incentives for forest protection.
 
-    - Utilizing smart contracts, IoT devices, and the blockchain to provide verifiable accountability. 
+  - Utilizing smart contracts, IoT devices, and the blockchain to provide verifiable accountability.
 
- 
+- ## Stakeholders
 
-* ## Stakeholders  
+  - ### _Private donors (individuals)_
 
-    - ### *Private donors (individuals)* 
+    A private donor is generally an individual who is willing to donate to our cause. Private donors need reassurance that their donations are being used correctly and blockchain allows donors exactly how and where their donations are being used.
 
-        A private donor is generally an individual who is willing to donate to our cause.  Private donors need reassurance that their donations are being used correctly and blockchain allows donors exactly how and where their donations are being used.  
+  - ### _Tree Custodians_
 
-    - ### *Tree Custodians* 
+    Tree custodians are local people who have an incentive to plant and are rewarded via tokens to take care of the tree and forests. A tree custodian can be allocated and take care of multiple trees.
 
-        Tree custodians are local people who have an incentive to plant and are rewarded via tokens to take care of the tree and forests. A tree custodian can be allocated and take care of multiple trees.  
+  - ### _Suppliers_
 
-    - ### *Suppliers* 
+    There are two main suppliers. The supplier of the tree sapling and IoT device. The blockchain monitors these inputs so each shipment can be timed, coordinated, and logged.
 
-        There are two main suppliers. The supplier of the tree sapling and IoT device. The blockchain monitors these inputs so each shipment can be timed, coordinated, and logged. 
+  - ### _Delivery Agents_
 
- 
+    There are multiple delivery agents like Ghana post or international providers such as FedEx, the blockchain scans the IoT device as it leaves the supplier. Upon delivery, the tree custodian registers receipt, with their mobile device.
 
-    - ### *Delivery Agents* 
+  - ### _Restrictions/rules_
 
-        There are multiple delivery agents like Ghana post or international providers such as FedEx, the blockchain scans the IoT device as it leaves the supplier. Upon delivery, the tree custodian registers receipt, with their mobile device.  
+  - ### _Data_
 
-    - ### *Restrictions/rules*  
+  - ### _Exceptions_
 
-    - ### *Data*  
+  - ### _User stories_
 
-    - ### *Exceptions*  
-
-    - ### *User stories* 
-
-        Replace with a graphical representation of the user stories 
-
-
+    Replace with a graphical representation of the user stories
 
 # Architecture
 
-* ## Project description 
+- ## Project description
 
-This project is to provide a way for government and private donors to track their funds with the use of the smart contract.  This also provide incentives to tree custodians through the issuance of TreeChain Tokens (TCT) 
+This project is to provide a way for government and private donors to track their funds with the use of the smart contract. This also provide incentives to tree custodians through the issuance of TreeChain Tokens (TCT)
 
-* ## Top level description 
+- ## Top level description
 
-TreeChain is a startup company offering a blockchain-based solution that allows donors to invest in the re-forestation of designated geographic areas where the local population is incentivized to plant, maintain and participate in forest restoration. 
+TreeChain is a startup company offering a blockchain-based solution that allows donors to invest in the re-forestation of designated geographic areas where the local population is incentivized to plant, maintain and participate in forest restoration.
 
-* ## Data / Fields
+- ## Data / Fields
 
 ```
 [ treeId, treeType, Latitude and Longitude, Timestamp, Location, treeState, TreeCustodiansWalletAddress ]
 ```
 
+- ## Functions - inputs/outputs
 
-* ## Functions - inputs/outputs  
+  createTreeData()
 
-    createTreeData()
+  updateTreeState()
 
-    updateTreeState()
+  modifiers()
 
-    modifiers()
+  events()
 
-    events()
+- ## Diagram (flow, system)
 
-* ## Diagram (flow, system)
-Replace with section with Flow diagram  
+  Replace with section with Flow diagram
 
-* ## Tech stack 
+- ## Tech stack
 
-    Blockchain 
+  Blockchain
 
-    Smart contract (Solidity) 
-
+  Smart contract (Solidity)
 
 # Project Plan
 
-* ## Breakdown of tasks 
+- ## Breakdown of tasks
 
-    - ### Documentation: 
+  - ### Documentation:
 
-        Problem and solution statement documentation. 
+    Problem and solution statement documentation.
 
-    - ### Graphical representation: 
+  - ### Graphical representation:
 
-        User stories diagram 
+    User stories diagram
 
-        Solution architecture diagram. 
+    Solution architecture diagram.
 
-    - ### Smart contract development: 
+  - ### Smart contract development:
 
-        Tokenization contract 
+    Tokenization contract
 
-        Data tracking contract  
+    Data tracking contract
 
-* ## Time estimate per task 
+- ## Time estimate per task
+
 ```
-| Tasks                         | Timeline          | 
+| Tasks                         | Timeline          |
 | :---------------------------- | :---------------- |
 | Documentation                 |  4 hours          |
 | Graphical representation      |  1 day            |
 | Smart contract development    |  5 days           |
 ```
 
+- ## Tasks assigned to Team members
 
-
-
-* ## Tasks assigned to Team members
 ```
 
-| Tasks                             | Assignee         | 
+| Tasks                             | Assignee         |
 | :----------------------------     |:---------------- |
-| Problem & solution documentation  |  Nthan           |
+| Problem & solution documentation  |  Nathan           |
 | Diagram representation:           |  Amandeepkaur    |
 | Smart Contract Development        |  Kinjal & Ken    |
 ```
 
+- ## Dependencies:
 
-* ## Dependencies: 
+  [Open zeppeline](https://github.com/OpenZeppelin/openzeppelin-contracts) library
 
-    [Open zeppeline](https://github.com/OpenZeppelin/openzeppelin-contracts) library
+- ## Length of time to complete
 
-* ## Length of time to complete  
+  The timeline for the entire project is 6days 15hrs
 
-    The timeline for the entire project is 6days 15hrs 
+- ## Gantt chart – simple (Amandeep)
 
-* ## Gantt chart – simple (Amandeep) 
+# Smart Contract
 
-# Smart Contract 
-* [TreeChain.sol]() file under the src folder in the repo.
-
-
-
-
-
-
-
+- [TreeChain.sol]() file under the src folder in the repo.
