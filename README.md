@@ -143,13 +143,7 @@ TreeChain is a startup company offering a blockchain-based solution that allows 
 
 - ## Gantt chart – simple (Amandeep)
 
+
 # Smart Contract
 
-Nathan writing something cool here
-
-<<<<<<< HEAD
-<!-- Basic git command with the team -->
-<!--This is Amandeep section -->
-=======
 - [TreeChain.sol]() file under the src folder in the repo.
->>>>>>> 023317182e050bdaaa923b530de43f729819f08b
