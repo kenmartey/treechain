@@ -128,7 +128,7 @@ TreeChain is a startup company offering a blockchain-based solution that allows 
 
 | Tasks                             | Assignee         |
 | :----------------------------     |:---------------- |
-| Problem & solution documentation  |  Nathan           |
+| Problem & solution documentation  |  Nathan          |
 | Diagram representation:           |  Amandeepkaur    |
 | Smart Contract Development        |  Kinjal & Ken    |
 ```
@@ -146,3 +146,5 @@ TreeChain is a startup company offering a blockchain-based solution that allows 
 # Smart Contract
 
 - [TreeChain.sol]() file under the src folder in the repo.
+
+<!-- Basic git command with the team -->
