@@ -1,8 +1,23 @@
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.6;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract DevToken is ERC20, Ownable{
+
+    uint public treeCustodianId;
+
+    constructor() ERC20("Treechain", "TCT"){}
+
+    function addTokensToSmartcontract(uint256 totalSupply) public onlyOwner{
+        _mint(msg.sender, totalSupply);
+    }
+}
+
 // [ treeId, treeType, Latitude and Longitude, Timestamp, 
-// Location, treeState, 	TreeCustodiansWalletAddress ] 
+// Location, treeState,     TreeCustodiansWalletAddress ] 
 
 contract TreeChain {
 
