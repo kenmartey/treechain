@@ -4,6 +4,7 @@ pragma solidity ^0.8.6;
 contract TreeChain {
 
     uint randTreeId;
+    TreeChainToken instance = new TreeChainToken();
 
     struct TreeChainData {
         uint treeId;
@@ -43,6 +44,7 @@ contract TreeChain {
         treeData[msg.sender] = treeChainDataStruct;
         emit TreeChainDataEvent(randomID(), _location, _treeState, block.timestamp);
         // Add issuance of 1 token out here
+        instance.withdraw(msg.sender, 1);
     }
 
     function updateTreeData(uint _treeId, string memory _treeState) public {
@@ -50,6 +52,7 @@ contract TreeChain {
         emit TreeChainDataUpdateEvent(_treeId, _treeState, block.timestamp);
         treechainUpdateMapping[_treeId] = _treechainDataUpdate;
         // Add issuance of .5 token here
+        instance.withdraw(msg.sender, 1);
     }
 
     function getTreeUpdateData(uint _treeId) public view returns(string memory _treeState_, uint256 _timeStamp) {
