@@ -7,8 +7,6 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract DevToken is ERC20, Ownable{
 
-    uint public treeCustodianId;
-
     constructor() ERC20("Treechain", "TCT"){}
 
     function addTokensToSmartcontract(uint256 totalSupply) public onlyOwner{
