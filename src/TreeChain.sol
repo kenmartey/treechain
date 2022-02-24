@@ -1,13 +1,5 @@
 // SPDX-License-Identifier: MIT
-
-// [ treeId, treeType, Latitude and Longitude, Timestamp, 
-// Location, treeState,     TreeCustodiansWalletAddress ] 
-
-// SPDX-License-Identifier: MIT
-
 pragma solidity ^0.8.6;
-// [ treeId, treeType, Latitude and Longitude, Timestamp, 
-// Location, treeState, 	TreeCustodiansWalletAddress ] 
 
 contract TreeChain {
 
@@ -77,6 +69,5 @@ contract TreeChain {
         _treeState_ = treeData[_address].treeState;
         _timestamp_ = treeData[_address].timestamp;
         return (_treeId_, _treeType_, _latitude_, _longitude_, _location_, _treeState_, _timestamp_);
-
     }   
 }
