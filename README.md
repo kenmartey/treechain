@@ -29,7 +29,7 @@ Forestation Initiatives have failed due to inefficiencies, claims of corruption,
 
   - Utilizing smart contracts, IoT devices, and the blockchain to provide verifiable accountability.
 
- ![Smart contracts overview](./assets/images/smart contract.png?raw=true "Smart contracts overview")
+ ![Smart contracts overview](./assets/images/smartcontractoverview.png?raw=true "Smart contracts overview")
 
 - ## Stakeholders
 
