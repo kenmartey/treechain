@@ -146,6 +146,6 @@ TreeChain is a startup company offering a blockchain-based solution that allows 
 
 # Smart Contract
 
-- [TreeChain.sol]() file under the src folder in the repo.
+- [TreeChain.sol]() file under the contracts folder in the repo.
 
-- 
+- [TreeChainToken.sol]() file under the contracts folder in the repo.
