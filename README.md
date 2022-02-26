@@ -2,7 +2,7 @@
 
 This project is to provide a way for government and private donors to track their funds with the use of the smart contract. This also provides incentives to tree custodians through the issuance of TreeChain Tokens (TCT).
 
-Building on the group project 'TreeChain' undertaken in class BCDV 1001, the group noted that similar functionality existed between the Vehicle License Plate registration and that of one of the key smart contracts needed for the TreeChain project. We used this opportunity to undertake further development of the (TCT) token    
+Building on the group project 'TreeChain' undertaken in class BCDV 1001, the group noted that similar functionality existed between the Vehicle License Plate registration and that of one of the key smart contracts needed for the TreeChain project. We used this opportunity to undertake further development of the (TCT) token.    
 
 # Getting Started
 
@@ -28,6 +28,8 @@ Forestation Initiatives have failed due to inefficiencies, claims of corruption,
   - Provide real-time tracking and incentives for forest protection.
 
   - Utilizing smart contracts, IoT devices, and the blockchain to provide verifiable accountability.
+
+ ![Smart contracts overview](./assets/images/smart contract.png?raw=true "Smart contracts overview")
 
 - ## Stakeholders
 
