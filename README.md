@@ -145,7 +145,7 @@ TreeChain is a startup company offering a blockchain-based solution that allows 
 
   The timeline for the entire project is 6days 15hrs
 
-- ## Gantt chart – simple (Amandeep)
+- ## Gantt chart – simple
 ![Treechain chart](./assets/images/Treechain-gantt-chart.png?raw=true "Treechain gantt chart")
 
 # Smart Contract
