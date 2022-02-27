@@ -1,6 +1,8 @@
 # TreeChain Project
 
-This project is to provide a way for government and private donors to track their funds with the use of the smart contract. This also provide incentives to tree custodians through the issuance of TreeChain Tokens (TCT)
+This project is to provide a way for government and private donors to track their funds with the use of the smart contract. This also provides incentives to tree custodians through the issuance of TreeChain Tokens (TCT).
+
+Building on the group project 'TreeChain' undertaken in class BCDV 1001, the group noted that similar functionality existed between the Vehicle License Plate registration and that of one of the key smart contracts needed for the TreeChain project. We used this opportunity to undertake further development of the (TCT) token.    
 
 # Getting Started
 
@@ -18,25 +20,26 @@ This project is to provide a way for government and private donors to track thei
 
 - ## Problem statement:
 
-Forestation Initiatives have failed due to inefficiencies, claims of corruption or the inability to demonstrate how funds were allocated. Previous attempts have not tracked results or audited spending.
-Update: this section
+Forestation Initiatives have failed due to inefficiencies, claims of corruption, or the inability to demonstrate how funds were allocated. Previous attempts have not tracked results or audited spending.
 - ## Goals
 
-  - The Goal is for TreeChain to provide accountability to donors. Update
+  - The Goal is for TreeChain to provide accountability to donors allowing them to track reforestation efforts.
 
   - Provide real-time tracking and incentives for forest protection.
 
   - Utilizing smart contracts, IoT devices, and the blockchain to provide verifiable accountability.
 
+ ![Smart contracts overview](./assets/images/smartcontractoverview.png?raw=true "Smart contracts overview")
+
 - ## Stakeholders
 
   - ### _Private donors (individuals)_
 
-    A private donor is generally an individual who is willing to donate to our cause. Private donors need reassurance that their donations are being used correctly and blockchain allows donors exactly how and where their donations are being used.
+    Private donors are generally an individuals who are willing to donate to our cause. Private donors need reassurance that their donations are being used correctly and blockchain allows donors exactly how and where their donations are being used.
 
   - ### _Tree Custodians_
 
-    Tree custodians are local people who have an incentive to plant and are rewarded via tokens to take care of the tree and forests. A tree custodian can be allocated and take care of multiple trees.
+    Tree custodians are local people who are incentivized to plant and provide on-going tree husbandry. They are rewarded via tokens to generate income. A tree custodian can be allocated to a tree or take care of multiple.
 
   - ### _Suppliers_
 
@@ -60,7 +63,7 @@ Update: this section
 
 - ## Project description
 
-This project is to provide a way for government and private donors to track their funds with the use of the smart contract. This also provide incentives to tree custodians through the issuance of TreeChain Tokens (TCT)
+This project is to provide a way for government and private donors to track their funds with the use of the smart contract. This also provide incentives to tree custodians through the issuance of TreeChain Tokens (TCT).
 
 - ## Top level description
 
@@ -147,6 +150,6 @@ TreeChain is a startup company offering a blockchain-based solution that allows 
 
 # Smart Contract
 
-- [TreeChain.sol]() file under the src folder in the repo.
+- [TreeChain.sol]() file under the contracts folder in the repo.
 
-- ##--Kinjal Ashra--
+- [TreeChainToken.sol]() file under the contracts folder in the repo.
