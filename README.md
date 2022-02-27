@@ -105,10 +105,14 @@ TreeChain is a startup company offering a blockchain-based solution that allows 
 
   - ### Graphical representation:
 
-    User stories diagram
+    User stories diagram:
+
     ![Treechain diagram](./assets/images/Treechain-user-stories-diagram.png?raw=true "Treechain user stories diagram")
 
-    Solution architecture diagram.
+    Solution architecture diagram:
+
+    ![Treechain diagram](./assets/images/Treechain-Solution-architecture-diagram.png?raw=true "Treechain user stories diagram")
+
 
   - ### Smart contract development:
 
